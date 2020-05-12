@@ -54,6 +54,6 @@ paymail. The public key is included so you can check yourself.
     name: 'Jonathan Aird',
     paymail: 'jonathanaird@moneybutton.com',
     publicKey:'032107bc529a107da5ac284bb2a582d8ae559bd5701d80ecb2341c609bb7765c50',
-    tx:'4f44f9079a6bebd11b9f9031fa98a9248d20e1723e62e80af673fbb2130d227e'
+    txid:'4f44f9079a6bebd11b9f9031fa98a9248d20e1723e62e80af673fbb2130d227e'
 }
 ```

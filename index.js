@@ -45,7 +45,7 @@ exports.getNames = function (token, paymails) {
                         name: names[key].name,
                         paymail: names[key].paymail,
                         publicKey: names[key].publicKey,
-                        tx:names[key].tx
+                        txid:names[key].txid
                     })
                 }
             })
@@ -128,7 +128,7 @@ function serialize(tx) {
                 publicKey,
                 address,
                 signature: cell[4].s,
-                tx:tx.tx.h
+                txid:tx.tx.h
             }
         }
 

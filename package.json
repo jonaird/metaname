@@ -1,6 +1,6 @@
 {
   "name": "metaname-client",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "A nodejs client for metaname",
   "main": "index.js",
   "scripts": {
