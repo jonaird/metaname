@@ -13,12 +13,12 @@ a Google Cloud Function or equivalent service to create your own API.
 ## Usage 
  
 ```
-mn = require('metaname') 
+metaname = require('metaname') 
  
 var token = 'YOUR PLANARIA API TOKEN'
 
 //gets the *latest* names for a list of paymails.  
-mn.getNames(token, ['jonathanaird@moneybutton.com']).then(names=>console.log(names)) 
+metaname.getNames(token, ['jonathanaird@moneybutton.com']).then(names=>console.log(names)) 
  
 function process(name){
     console.log(name)
@@ -30,7 +30,7 @@ function callback(){
 
 //will call process on all names in the history of the metaname protocol
 //when finished crawling, it will start listening for new names using bitsocket
-mn.getAllNames(token, process, callback) 
+metaname.getAllNames(token, process, callback) 
 ```
  
 Name objects are returned in the following format. They have been verified
