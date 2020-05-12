@@ -19,12 +19,12 @@ OP_RETURN
  
 ## Installation 
  
-`npm i --save metaname` 
+`npm i --save metaname-client` 
  
 ## Usage 
  
 ```
-metaname = require('metaname') 
+metaname = require('metaname-client') 
  
 var token = 'YOUR PLANARIA API TOKEN'
 

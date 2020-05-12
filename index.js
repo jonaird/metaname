@@ -2,8 +2,6 @@ planariette = require('planariette')
 Buffer = require('buffer').Buffer
 bsv = require('bsv');
 Message = require('bsv/Message')
-bitbus = require('run-bitbus')
-bitsocket = require('bitsocket-connect')
 
 
 var protocolPrefix = '14FLDQhDGmxKCsX79qEtMm36YcdUVyGQm5'
