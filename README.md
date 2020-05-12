@@ -5,6 +5,17 @@ See [metaname.network](https://www.metaname.network).
  
 Rather than providing a public API endpoint for getting metanames (which are only 50 bytes in length max), metaname is also a Nodejs package that uses [Planaria endpoints](https://grid.planaria.network/) to get metanames for your backend. If you aren't using Node, consider using
 a Google Cloud Function or equivalent service to create your own API. 
+
+## Protocol Spec 
+```
+OP_FALSE 
+OP_RETURN 
+14FLDQhDGmxKCsX79qEtMm36YcdUVyGQm5 
+[name] utf-8 encoded, 50 chars max
+[paymail] 
+[pubkey] 
+[signature]
+```
  
 ## Installation 
  
